@@ -183,7 +183,7 @@ def execute_command(command):
         response = "Restarting the system..."
 
     elif "code" in command:
-        os.system("open -a Visual Studio Code")
+        os.system("open -a 'Visual Studio Code'")
         response = "Opening Visual Studio Code..."
 
     elif "mail" in command:
