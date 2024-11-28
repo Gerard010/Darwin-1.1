@@ -107,8 +107,8 @@ def execute_command(command):
         os.system("sudo shutdown -r now")
         response = "Reiniciando el sistema..."
 
-    elif "codigo" in command:
-        os.system("open -a Visual Studio Code")
+    elif "cod" in command:
+        os.system("open -a 'Visual Studio Code'")
         response = "Abriendo Visual Studio Code..."
 
     elif "correo" in command:
