@@ -1,2 +1,3 @@
 # Simple-Python-Assistant
-This is a simple assistent, in which you can type commands, such as "Open Chrome" or "CPU Usage"
+This is a simple assistent, in which you can type commands, such as "Open Chrome" or "CPU Usage".
+To use it you need to open "welcoming.py" first
