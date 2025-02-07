@@ -4,7 +4,6 @@ import webbrowser
 import datetime
 import psutil
 import re
-import random
 import speech_recognition as sr
 import subprocess
 
@@ -12,7 +11,7 @@ import subprocess
 def procesar_comando_ia(comando):
     try:
         resultado = subprocess.run(
-            ["ollama", "run", "llava:13b"],
+            ["ollama", "run", "gemma:7b"],
             input=comando,
             text=True,
             capture_output=True
