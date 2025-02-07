@@ -11,7 +11,7 @@ import subprocess
 def process_command_ai(command):
     try:
         result = subprocess.run(
-            ["ollama", "run", "llava:13b"],
+            ["ollama", "run", "gemma:7b"],
             input=command,
             text=True,
             capture_output=True
