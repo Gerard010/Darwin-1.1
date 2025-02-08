@@ -1,4 +1,4 @@
 # Darwin 1.1
-This is a simple assistent, in which you can type commands, such as "Open Chrome" or "CPU Usage".
-You need 1 model of IA that runs in local, in this version it's llava:13b but you can change it in the Assistants codes.
-To use it you need to open "welcoming.py" first and follow the short tutorial.
+This is an assistant that interacts as if it were your secretary, you can communicate with it naturally, it also recognizes voice commands, 
+but it has a function that makes it different, it can inform you of the status of your computer, 
+open applications that you cannot find or search for links.
