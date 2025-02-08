@@ -50,13 +50,13 @@ def open_instruction_manual(event=None):
         print("Error: El archivo no existe.")
 
 root = tk.Tk()
-root.title("Smart Assistant")
+root.title("DarwinIA")
 root.geometry("500x300")
 
 title_label = tk.Label(root, text="Hi! Welcome to Darwin", font=("Helvetica", 16, "bold"))
 title_label.pack(pady=(30, 10))
 
-description_label = tk.Label(root, text="The best IA assistant fully developed in Python.", font=("Helvetica", 14))
+description_label = tk.Label(root, text="The best IA assistant by SpotIA.", font=("Helvetica", 14))
 description_label.pack(pady=(0, 20))
 
 language_label = tk.Label(root, text="Choose the lenguage:", font=("Helvetica", 14))
